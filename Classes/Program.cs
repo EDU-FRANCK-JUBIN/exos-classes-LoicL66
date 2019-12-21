@@ -4,7 +4,7 @@ namespace Classes
 {
     class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             var compte = new CompteBancaire("Bob", 1, 753.35, "euro.s");
             Console.WriteLine(compte.Decrire());
